@@ -26,7 +26,7 @@ const HireContainer = () => {
                         <textarea className="hireInput" rows={5} />
                     </div>
                     <div className="hireComponent">
-                        <button className="submitBtn" >Submit</button>
+                        <button className="submitBtn" onClick={() => {setHireClick(false)}}>Submit</button>
                     </div>
                 </div>
                 :

@@ -30,7 +30,7 @@ const Footer = () => {
 
             </div>
             <hr style={{width: '95%'}}/>
-            <div style={{marginTop: '5px'}}>
+            <div style={{marginTop: '5px', textAlign: 'center'}}>
             &copy; 2024 Nivakaran Shanmugabavan - All Rights Reserved
             </div>
             
