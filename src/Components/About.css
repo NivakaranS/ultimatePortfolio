@@ -1,0 +1,253 @@
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .innerNumberContainer {
+        margin-top: 20px;
+        
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .numberContainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .mainAboutContainer {
+        color: white;
+        background: black;
+        display: flex;
+        align-items: center;
+        
+        height: 100%;
+        flex-direction: column;
+        
+        overflow-x: hidden;
+    }
+    
+    .innerMainAboutContainer {
+        background: gray;
+        height: fit-content;
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+
+
+    }
+    
+    .innerQuoteContainer {
+        width: 90%;
+        background: rgb(67, 64, 64);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        
+    }
+    
+    .quote {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+        background: rgb(67, 64, 64);
+    }
+    
+    .steve {
+        text-align: right;
+        font-size: 25px;
+        margin: 5px 50px 10px 0px ;
+    }
+
+    .aboutContainerTitle {
+        color: white;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .aboutMe {
+        display: flex;
+        flex-direction: row;
+        width: 90% ;
+        background: white;
+        margin: 0px 0px 20px 0px;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .aboutContainerTitle {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .aboutLeftContainer {
+        display: none;
+        
+    }
+    .aboutRightContainer {
+        width: 100%;
+        background: white;
+        color: black;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+
+    .innerRightContainer {
+        
+        width: 90%;
+        
+        
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .mainAboutContainer {
+        color: white;
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        flex-direction: column;
+    }
+    
+    .innerQuoteContainer {
+        width: 80%;
+        background: grey;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .quote {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    
+    .steve {
+        text-align: right;
+        font-size: 25px;
+        margin: 5px 50px 10px 0px ;
+    }
+
+    .aboutContainerTitle {
+        color: white;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .aboutMe {
+        display: flex;
+        flex-direction: row;
+        width: 80% ;
+        background: white;
+        margin: 10px 0px 20px 0px;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .aboutContainerTitle {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .aboutLeftContainer {
+        width: 30%;
+        
+    }
+    .aboutRightContainer {
+        width: 70%;
+        background: white;
+        color: black;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .innerRightContainer {
+        height: 85%;
+        width: 88%;
+        outline: 1px solid black;
+        
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .mainAboutContainer {
+        color: white;
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        flex-direction: column;
+    }
+    
+    .innerQuoteContainer {
+        width: 80%;
+        background: grey;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .quote {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    
+    .steve {
+        text-align: right;
+        font-size: 25px;
+        margin: 0px 50px 10px 0px ;
+    }
+
+    .aboutContainerTitle {
+        color: white;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .aboutMe {
+        display: flex;
+        flex-direction: row;
+        width: 80% ;
+        background: white;
+        margin: 10px 0px 20px 0px;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .aboutContainerTitle {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .aboutLeftContainer {
+        width: 50%;
+        
+    }
+    .aboutRightContainer {
+        width: 50%;
+        background: white;
+        color: black;
+        border-radius: 0px 10px 10px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .innerRightContainer {
+        height: 85%;
+        width: 88%;
+        outline: 1px solid black;
+        
+    }
+}

@@ -1,0 +1,165 @@
+
+
+
+
+
+ul {
+    color: white;
+    list-style: none;
+}
+
+.mainNavigationContainer{
+    z-index: 999;
+}
+
+.navigationContainer {
+    display: flex;
+}
+
+.downloadBtn {
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    background: rgb(255, 187, 0);
+    
+    
+}
+
+.downloadBtn:hover {
+    background: yellow;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .mobileNavigationContainer {
+        display: flex;
+        background: black;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid red;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+    }
+    
+    .mobileLogo {
+        width: 45px;
+        margin: 10px 0px;
+        cursor: pointer;
+    }
+
+    .mainNavigationContainer {
+        display: none;
+    }
+
+
+    .mobileMainLogo {
+        width: 60px;
+        margin: 10px 0px ;
+    }
+    .mobileDownloadContainer {
+        padding: 5px 10px;
+        width: 90px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        background: rgb(255, 187, 0);
+        font-size: 15px;
+    }
+
+    .mobileDownloadContainer:hover {
+        background: yellow;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .navList {
+        margin: 0px 15px;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .mobileNavigationContainer {
+        display: none;
+        
+    }
+
+    .mainNavigationContainer {
+        list-style: none;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        background: black;
+        padding: 10px 0px;
+        position: fixed;
+        top: 0;
+        border-bottom: 1px solid red;
+        
+    }
+
+    .navList:hover {
+        color: rgb(199, 195, 195);
+    }
+
+    .downloadBtn {
+        width: 100px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    .mainLogo {
+        width: 60px;
+        margin: 5px 0px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .navList {
+        margin: 0px 30px;
+        font-size: 23px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .navList:hover {
+        color: rgb(199, 195, 195);
+    }
+
+    .mainNavigationContainer {
+        list-style: none;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        background: black;
+        padding: 10px 0px;
+        position: fixed;
+        top: 0;
+        border-bottom: 1px solid red;
+        
+        
+    }
+
+    .mainLogo {
+        width: 60px;
+    }
+
+    .mobileNavigationContainer {
+        display: none;
+    }
+
+    .downloadBtn {
+        width: 110px;
+        border-radius: 5px;
+        font-size: 17px;    
+    }
+
+}

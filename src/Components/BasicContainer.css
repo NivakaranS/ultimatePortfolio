@@ -1,0 +1,357 @@
+* {
+    margin: 0px;
+}
+
+.mainBasicContainer {
+    background: black;
+    width: 100%;
+    height: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.basicLeftContainer {
+    background: grey;
+    
+
+}
+
+
+
+.basicRightContainer {
+    background: rgb(202, 198, 198);
+    
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .mainBasicContainer {
+        margin-top: 80px;
+        height: 90vh;
+         
+     }
+ 
+     .basicLeftContainer {
+         background: black;
+         height: 100%;
+         width: 20%;
+         position: relative;
+     
+     }
+     
+     
+     .basicRightContainer {
+         background: black;
+         height: 100%;
+         width: 60%;
+         
+     }
+ 
+     .innerBasicRightContainer {
+         display: flex;
+         flex-direction: column;
+         margin: 0px 9px ;
+         justify-content: center;
+         height: 100%;
+         font-weight: 500;
+         
+     }
+ 
+     .firstText {
+         font-size: 20px;
+     }
+ 
+     .secondText {
+         font-size: 27px;
+     }
+ 
+     .thirdText {
+         font-size: 20px;
+ 
+     }
+ 
+     .titleText {
+         color: rgb(0, 136, 255);
+         font-weight: 700;
+         border-right: 5px solid rgb(17, 113, 231);
+         padding-right: 6px;
+     }
+ 
+     .basicPotrait {
+         height: 100%;
+         position: absolute;
+         right: 0px;
+ 
+     }
+     .buttonContainer {
+        display: flex;
+        margin: 13px 10px;
+        
+    }
+    
+    .basicKnowBtn {
+        margin-right: 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .arrowIcon{
+        width: 25px;
+        margin-left: 10px;
+    
+    }
+    
+    .basicDownloadBtn {
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 20px;
+        padding: 10px 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        margin-right: 10px;
+        
+        
+    }
+    
+    .basicKnowBtn:hover{
+        background: yellow;
+    }
+    
+    .basicDownloadBtn:hover {
+        background: yellow;
+    }
+    
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .mainBasicContainer {
+        margin-top: 85px;
+        height: 90vh;
+         
+     }
+ 
+     .basicLeftContainer {
+         background: black;
+         height: 100%;
+         width: 30%;
+         position: relative;
+     
+     }
+     
+     
+     .basicRightContainer {
+         background: black;
+         height: 100%;
+         width: 50%;
+         
+     }
+ 
+     .innerBasicRightContainer {
+         display: flex;
+         flex-direction: column;
+         margin: 0px 12px ;
+         justify-content: center;
+         height: 100%;
+         font-weight: 500;
+         
+     }
+ 
+     .firstText {
+         font-size: 20px;
+     }
+ 
+     .secondText {
+         font-size: 27px;
+     }
+ 
+     .thirdText {
+         font-size: 24px;
+ 
+     }
+ 
+     .titleText {
+         color: blue;
+         font-weight: 700;
+         border-right: 5px solid rgb(10, 105, 248);
+         padding-right: 6px;
+     }
+ 
+     .basicPotrait {
+         height: 100%;
+         position: absolute;
+         right: 0px;
+ 
+     }
+
+     .buttonContainer {
+        display: flex;
+        margin: 13px 10px;
+        
+    }
+    
+    .basicKnowBtn {
+        margin-right: 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .arrowIcon{
+        width: 25px;
+        margin-left: 10px;
+    
+    }
+    
+    .basicDownloadBtn {
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 20px;
+        padding: 10px 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        margin-right: 10px;
+        
+        
+    }
+    
+    .basicKnowBtn:hover{
+        background: yellow;
+    }
+    
+    .basicDownloadBtn:hover {
+        background: yellow;
+    }
+    
+}
+
+@media only screen and (min-width: 1025px) {
+    
+    
+    .mainBasicContainer {
+       margin-top: 85px;
+       height: 90vh;
+        
+    }
+
+    .basicLeftContainer {
+        background: black;
+        height: 100%;
+        width: 35%;
+        position: relative;
+    
+    }
+    
+    
+    .basicRightContainer {
+        background: black;
+        height: 100%;
+        width: 45%;
+        
+    }
+
+    .innerBasicRightContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px ;
+        justify-content: center;
+        height: 100%;
+        font-weight: 500;
+        
+    }
+
+    .firstText {
+        font-size: 25px;
+    }
+
+    .secondText {
+        font-size: 30px;
+    }
+
+    .thirdText {
+        font-size: 35px;
+
+    }
+
+    .titleText {
+        color: blue;
+        font-weight: 700;
+        border-right: 5px solid rgb(10, 105, 248);
+        padding-right: 5px;
+    }
+
+    .basicPotrait {
+        height: 100%;
+        position: absolute;
+        right: 0px;
+
+    }
+
+    .buttonContainer {
+        display: flex;
+        margin: 10px 10px;
+        
+    }
+    
+    .basicKnowBtn {
+        margin-right: 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .arrowIcon{
+        width: 25px;
+        margin-left: 10px;
+    
+    }
+    
+    .basicDownloadBtn {
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 20px;
+        padding: 10px 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        margin-right: 10px;
+        
+    }
+    
+    .basicKnowBtn:hover{
+        background: yellow;
+    }
+    
+    .basicDownloadBtn:hover {
+        background: yellow;
+    }
+    
+
+}
