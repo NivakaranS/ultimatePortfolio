@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/NivakaranS/finalPortfolio.git/static/css/main.9c966f7a.css",
+    "main.js": "/NivakaranS/finalPortfolio.git/static/js/main.a7eece50.js",
+    "static/js/453.69377cd0.chunk.js": "/NivakaranS/finalPortfolio.git/static/js/453.69377cd0.chunk.js",
+    "static/media/circle.png": "/NivakaranS/finalPortfolio.git/static/media/circle.d5f17075d9e551c2d317.png",
+    "static/media/portrait.png": "/NivakaranS/finalPortfolio.git/static/media/portrait.1e097487e9f9caf595cd.png",
+    "static/media/ui_ux.png": "/NivakaranS/finalPortfolio.git/static/media/ui_ux.f63a7c6c4f01585a1e6b.png",
+    "static/media/datascience.png": "/NivakaranS/finalPortfolio.git/static/media/datascience.bad635d8aba59df1f7cb.png",
+    "static/media/logon.png": "/NivakaranS/finalPortfolio.git/static/media/logon.c69fea4fe6ebe0da801f.png",
+    "static/media/web2.png": "/NivakaranS/finalPortfolio.git/static/media/web2.f6564ee67eaebc031c6d.png",
+    "static/media/hacking.png": "/NivakaranS/finalPortfolio.git/static/media/hacking.5054fa9b1b57e0b7b251.png",
+    "static/media/instagram.png": "/NivakaranS/finalPortfolio.git/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/mobile_development.png": "/NivakaranS/finalPortfolio.git/static/media/mobile_development.03b7b674928ca7346d1d.png",
+    "static/media/menu.png": "/NivakaranS/finalPortfolio.git/static/media/menu.9de22c2aa56d78ef83f1.png",
+    "static/media/github.png": "/NivakaranS/finalPortfolio.git/static/media/github.f11021803f68852df283.png",
+    "static/media/linkedin.png": "/NivakaranS/finalPortfolio.git/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/NivakaranS/finalPortfolio.git/index.html",
+    "main.9c966f7a.css.map": "/NivakaranS/finalPortfolio.git/static/css/main.9c966f7a.css.map",
+    "main.a7eece50.js.map": "/NivakaranS/finalPortfolio.git/static/js/main.a7eece50.js.map",
+    "453.69377cd0.chunk.js.map": "/NivakaranS/finalPortfolio.git/static/js/453.69377cd0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c966f7a.css",
+    "static/js/main.a7eece50.js"
+  ]
+}
