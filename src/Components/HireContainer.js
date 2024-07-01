@@ -5,7 +5,7 @@ const HireContainer = () => {
     return(
         <div className="mainHireContainer">
             <div className="innerHireContainer">
-                <div style={{textAlign: 'center'}}>
+                <div style={{textAlign: 'center', fontWeight: '500', color: 'white'}}>
                     Got anything in your mind? Let's make something awesome together!
                 </div>
                 <div className="hireBtn">
