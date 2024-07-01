@@ -24,9 +24,9 @@ const Footer = () => {
                 </div>
             </div>
             <div style={{margin: '4px 0px'}}>
-                <img src={LinkedIn} style={{height: '25px', cursor: 'pointer', margin: '0px 8px'}}/>
-                <img src={Git} style={{height: '25px', cursor: 'pointer', margin: '0px 8px'}}/>
-                <img src={Instagram} style={{height: '25px', cursor: 'pointer', margin: '0px 8px'}}/>
+                <a href='https://www.linkedin.com/in/nivakaran/'><img src={LinkedIn} style={{height: '25px', cursor: 'pointer', margin: '0px 8px'}}/></a>
+                <a href='https://github.com/NivakaranS'><img src={Git} style={{height: '25px', cursor: 'pointer', margin: '0px 8px'}}/></a>
+                <a href='https://www.instagram.com/nivakarans/'><img src={Instagram} style={{height: '25px', cursor: 'pointer', margin: '0px 8px'}}/></a>
 
             </div>
             <hr style={{width: '95%'}}/>
