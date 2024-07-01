@@ -3,14 +3,14 @@ import './MobileNavigator.css';
 import Logo from './images/logon.png'
 import Close from './images/close-3.png'
 
-const MobileNavigator = ({mobileMenuClickClose}) => {
+const MobileNavigator = ({mobileMenuClickClose, mobileNavigationFalse}) => {
     return(
         <div className="mainMobileNavigator">
             <div>
                 <img className="mobileNavigatorLogo"src={Logo} />
             </div>
             <div className="mobileClose">
-                <img src={Close} onClick={mobileMenuClickClose}/>
+                <img src={Close} onClick={mobileNavigationFalse}/>
             </div>
             <nav>
                 <ul>

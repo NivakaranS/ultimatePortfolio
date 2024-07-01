@@ -1,5 +1,6 @@
 import React from "react";
 import './About.css';
+import Counter from "./Counter";
 
 const About = () => {
     return(
@@ -34,13 +35,13 @@ const About = () => {
                                 <p>Join me on this exhilarating quest as we navigate the complexities of data science and software engineering together. Let's embrace curiosity, defy conventions, and forge ahead into a future where possibilities are limitless.</p>
                                 <div className="numberContainer">
                                     <div className="innerNumberContainer">
-                                        <div>Projects</div>
-                                        <div>15</div>
+                                        <div style={{fontSize: '25px'}}>Projects</div>
+                                        <Counter targetNumber={20} />
                                     </div>
                                     <div className="innerNumberContainer">
 
-                                        <div>Programing langugages</div>
-                                        <div>20</div>
+                                        <div style={{fontSize: '25px'}}>Programing languages</div>
+                                        <Counter targetNumber={5} />
                                     </div>
                                 </div>
                             </div>

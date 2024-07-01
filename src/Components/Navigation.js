@@ -5,7 +5,7 @@ import mobileMenu from './images/menu.png';
 import MobileNavigator from './MobileNavigator';
 
 
-const Navigation = () => {
+const Navigation = ({mobileNavigationClick}) => {
     const [mobileMenuClick, setMobileMenuClick] = useState(false);
 
     const mobileMenuClickClose = () => {
@@ -26,7 +26,7 @@ const Navigation = () => {
                     <li className='navList'>Contact</li>
                 </ul>
                 <div>
-                    <button className='downloadBtn'>Download resume</button>
+                    <button className='downloadBtn'><a href='https://drive.google.com/file/d/1e8cJMopvJCOQS3-HEzXdJxNbVSXhv5_h/view?usp=sharing'>Download resume</a></button>
                 </div>
             </nav>
             {     
@@ -34,12 +34,12 @@ const Navigation = () => {
                 ?<MobileNavigator mobileMenuClickClose={mobileMenuClickClose} />
                 :<nav className='mobileNavigationContainer'>
                 
-                <img onClick={() => setMobileMenuClick(true)} className='mobileLogo' src={mobileMenu} />
+                <img onClick={mobileNavigationClick} className='mobileLogo' src={mobileMenu} />
                 <div>
                     <img className='mobileMainLogo' src={Logo}/>
                 </div>
                 <div >
-                    <button className='mobileDownloadContainer'>Download resume</button>
+                    <button className='mobileDownloadContainer'><a href='https://drive.google.com/file/d/1e8cJMopvJCOQS3-HEzXdJxNbVSXhv5_h/view?usp=sharing'>Download resume</a></button>
                 </div>
             </nav>
             }

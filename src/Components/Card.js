@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card.css';
-import Logo from './images/logon.png'
+import Logo from './images/logon.png';
+import Arrow from './images/right-arrow.png';
 
 const Card = ({projectIcon, name}) => {
   return (
@@ -31,7 +32,7 @@ const Card = ({projectIcon, name}) => {
                 <div style={{background: 'blue', fontSize: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '5px 10px', borderRadius: '15px'}}>CSS</div>
                 <div style={{background: 'yellow', fontSize: '10px' , color: 'black', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '5px 10px', borderRadius: '15px'}}>Javascript</div>
                 
-                <button className='getCodeBtn'><a href='https://github.com/NivakaranS/nodePortfolio.git'>Get code</a></button>
+                <button className='getCodeBtn'><a href='https://github.com/NivakaranS/ultimatePortfolio.git'>Get code<img style={{height: '10px', marginLeft: '5px'}} src={Arrow}/></a></button>
               </div>
               
             </div>
