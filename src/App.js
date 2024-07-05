@@ -8,21 +8,10 @@ import HireContainer from './Components/HireContainer';
 import Footer from './Components/Footer';
 import MobileNavigator from './Components/MobileNavigator';
 import {ScrollProvider} from './ScrollContext';
+import {Element} from 'react-scroll';
 
 function App() {
   const [mobileNavigationMenuClick, setMobileNavigationMenuClick] = useState(false);
-  
-
-
-
-
-  // onClick={() => scrollToSection(HomeTargetRef)} disabled={!isLoaded}
-  
-  // onClick={() => scrollToSection(ProjectsTargetRef)} disabled={!isLoaded}
-  // onClick={() => scrollToSection(HireTargetRef)} disabled={!isLoaded}
-  // onClick={() => scrollToSection(ContactTargetRef)} disabled={!isLoaded}
-
- 
 
 
 
@@ -36,21 +25,28 @@ function App() {
   }
 
   return (
-    
-
-    
-      mobileNavigationMenuClick
-      ?<MobileNavigator  mobileNavigationFalse={mobileNavigationFalse}/>
-      :
       <div>
-        <Navigation mobileNavigationClick={mobileNavigationClick}/>
-      <BasicContainer/>
-      <About />
-      <WhatIDo/>
-      <Projects/>
-      <HireContainer/>
-      <Footer/>
-
+        {mobileNavigationMenuClick && (
+        <MobileNavigator mobileNavigationFalse={mobileNavigationFalse} />
+      )}
+        
+        <Navigation navigationClick={mobileNavigationClick} mobileNavigationClick={mobileNavigationClick}/>
+        <Element name='home' className='home'>
+          <BasicContainer/>
+        </Element>
+        <Element name='about' className='about'>
+          <About />
+        </Element>
+        <Element name='services' className='services'>
+          <WhatIDo/>
+        </Element>
+        <Element name='projects' className='projects'>
+          <Projects/>
+        </Element>
+        <Element name='contact' className='contact'>
+          <HireContainer/>
+          <Footer/>
+        </Element>
       </div>
     
       

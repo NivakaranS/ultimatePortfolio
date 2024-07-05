@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import './BasicContainer.css';
 import Potrait from './images/portrait.png';
 import Arrow from './images/right-arrow.png';
+import { Link } from "react-scroll";
 
 const BasicContainer = () => {
     const [wordIndex, setWordIndex] = useState(0);
@@ -51,9 +52,10 @@ const BasicContainer = () => {
                     <p className="secondText">This is Nivakaran</p>
                     <p className="thirdText">I am a <span className="titleText">{displayText}</span></p>
                     <div className="buttonContainer">
+                    <Link to="about" smooth={true} duration={500} offset={-85} style={{color: 'white'}}>
+                    <button className="basicKnowBtn">Know more<img className="arrowIcon" src={Arrow} /></button>
                     
-                        <button className="basicKnowBtn">Know more<img className="arrowIcon" src={Arrow} /></button>
-                        
+                    </Link>
                     </div>
                 
                 </div>
