@@ -111,32 +111,67 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .innerNumberContainer {
+        margin-top: 20px;
+        
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .numberContainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
     .mainAboutContainer {
         color: white;
         background: black;
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 90vh;
+        
+        height: 100%;
         flex-direction: column;
+        
+        overflow-x: hidden;
+    }
+    
+    .innerMainAboutContainer {
+        background: gray;
+        height: fit-content;
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+
+
     }
     
     .innerQuoteContainer {
-        width: 80%;
-        background: grey;
+        width: 90%;
+        background: rgb(67, 64, 64);
         border-radius: 10px;
         margin-bottom: 20px;
+        margin-top: 10px;
+        padding: 0px 10px;
+        
+        
     }
     
     .quote {
         text-align: center;
-        font-size: 35px;
+        font-size: 25px;
         margin-top: 10px;
+        background: rgb(67, 64, 64);
     }
     
     .steve {
         text-align: right;
-        font-size: 25px;
+        font-size: 20px;
         margin: 5px 50px 10px 0px ;
     }
 
@@ -149,9 +184,9 @@
     .aboutMe {
         display: flex;
         flex-direction: row;
-        width: 80% ;
+        width: 90% ;
         background: white;
-        margin: 10px 0px 20px 0px;
+        margin: 0px 0px 20px 0px;
         height: 100%;
         border-radius: 10px;
     }
@@ -160,12 +195,22 @@
         margin: 10px 0px 0px 0px;
     }
 
-    .aboutLeftContainer {
-        width: 30%;
+    
+
+    .innerRightContainer {
+        
+        width: 90%;
+        
         
     }
+
+
+
+    .aboutLeftContainer {
+        display: none;
+    }
     .aboutRightContainer {
-        width: 70%;
+        width: 100%;
         background: white;
         color: black;
         border-radius: 10px;
@@ -175,7 +220,8 @@
     }
 
     .innerRightContainer {
-        height: 85%;
+        margin: 20px 20px;
+        padding: 20px;
         width: 88%;
         outline: 1px solid black;
         
@@ -183,33 +229,68 @@
 }
 
 @media only screen and (min-width: 1025px) {
+    .innerNumberContainer {
+        margin-top: 20px;
+        
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .numberContainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
     .mainAboutContainer {
         color: white;
         background: black;
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 90vh;
+        
+        height: 100%;
         flex-direction: column;
+        
+        overflow-x: hidden;
+    }
+    
+    .innerMainAboutContainer {
+        background: gray;
+        height: fit-content;
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+
+
     }
     
     .innerQuoteContainer {
-        width: 80%;
-        background: grey;
+        width: 90%;
+        background: rgb(67, 64, 64);
         border-radius: 10px;
         margin-bottom: 20px;
+        margin-top: 10px;
+        padding: 0px 10px;
+        
+        
     }
     
     .quote {
         text-align: center;
-        font-size: 40px;
+        font-size: 25px;
         margin-top: 10px;
+        background: rgb(67, 64, 64);
     }
     
     .steve {
         text-align: right;
-        font-size: 25px;
-        margin: 0px 50px 10px 0px ;
+        font-size: 20px;
+        margin: 5px 50px 10px 0px ;
     }
 
     .aboutContainerTitle {
@@ -221,9 +302,9 @@
     .aboutMe {
         display: flex;
         flex-direction: row;
-        width: 80% ;
+        width: 90% ;
         background: white;
-        margin: 10px 0px 20px 0px;
+        margin: 0px 0px 20px 0px;
         height: 100%;
         border-radius: 10px;
     }
@@ -232,22 +313,34 @@
         margin: 10px 0px 0px 0px;
     }
 
-    .aboutLeftContainer {
-        width: 50%;
+    
+
+    .innerRightContainer {
         
+        width: 90%;
+        
+        
+    }
+
+
+
+    .aboutLeftContainer {
+        display: flex;
+        width: 50%;
     }
     .aboutRightContainer {
         width: 50%;
         background: white;
         color: black;
-        border-radius: 0px 10px 10px 0px;
+        border-radius: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .innerRightContainer {
-        height: 85%;
+        margin: 20px 20px;
+        padding: 20px;
         width: 88%;
         outline: 1px solid black;
         

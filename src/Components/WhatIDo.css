@@ -46,12 +46,12 @@
 
     .whatIDoContainerList {
         text-align: center;
-        margin: 8px 0px;
+        margin: 8px 20px;
         color: rgb(195, 194, 194);
         background: rgb(36, 36, 36);
         width: 92%;
         border-radius: 10px;
-        
+        ;
         font-size: 18px;
         padding: 25px 0px;
         
@@ -59,9 +59,136 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .whatIDoContentInformation {
+        font-size: 15px;
+        margin: 5px 25px;
+    }
+    .whatIDoHeader {
+        font-size: 23px;
+        color: white;
+    }
 
+    .whatIDoContentContainer {
+
+    }
+    .whatTitleContainer1 {
+        position: absolute;
+        
+        color: white;
+        
+    }
+
+    .innerWhatIDoContainerContent {
+        display: grid;
+        grid-template-columns: auto auto;
+        
+        width: 100%;
+        overflow-x: hidden;
+        
+        
+        
+        
+    }
+
+    .mainWhatIDoContainer {
+        
+        background: black;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .whatTitle {
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .whatIDoContainerList {
+        text-align: center;
+        
+        color: rgb(195, 194, 194);
+        background: rgb(36, 36, 36);
+        
+        border-radius: 10px;
+        
+        font-size: 18px;
+        padding: 25px 0px;
+        margin: 10px 10px;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
+    .whatIDoContentInformation {
+        font-size: 15px;
+        margin: 5px 25px;
+    }
+    .whatIDoHeader {
+        font-size: 23px;
+        color: white;
+    }
 
+    .whatIDoContentContainer {
+
+    }
+    .whatTitleContainer1 {
+        position: absolute;
+        
+        color: white;
+        
+    }
+
+    .innerWhatIDoContainerContent {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        overflow-x: hidden;
+        
+        
+        
+        
+    }
+
+    .mainWhatIDoContainer {
+        
+        background: black;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .whatTitle {
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .whatIDoContainerList {
+        text-align: center;
+        
+        color: rgb(195, 194, 194);
+        background: rgb(36, 36, 36);
+        
+        border-radius: 10px;
+        
+        font-size: 18px;
+        padding: 25px 0px;
+        margin: 10px 10px;
+    }
 }

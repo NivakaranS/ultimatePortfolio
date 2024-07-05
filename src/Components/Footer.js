@@ -27,7 +27,6 @@ const Footer = () => {
                 <a href='https://www.linkedin.com/in/nivakaran/'><img src={LinkedIn} style={{height: '25px', cursor: 'pointer', margin: '0px 8px'}}/></a>
                 <a href='https://github.com/NivakaranS'><img src={Git} style={{height: '25px', cursor: 'pointer', margin: '0px 8px'}}/></a>
                 <a href='https://www.instagram.com/nivakarans/'><img src={Instagram} style={{height: '25px', cursor: 'pointer', margin: '0px 8px'}}/></a>
-
             </div>
             <hr style={{width: '95%'}}/>
             <div style={{marginTop: '5px', textAlign: 'center'}}>

@@ -85,9 +85,163 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .mainHireContainer {
+        width: 100%;
+        background: black;
+        
+        padding: 20px 0px;
+        
+    }
 
+    .innerHireContainer {
+        background: gray;
+        font-size: 20px;
+        padding: 20px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .hireBtn {
+        background: rgb(255, 213, 1);
+        width: fit-content;
+        padding: 5px 10px ;
+        margin-top: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        font-size: 20px;
+
+    }
+
+    .hireBtn:hover {
+        background: yellow;
+    }
+
+    .hireFormContainer {
+        width: 80%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hireComponent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        
+    }
+
+    .hireInput {
+        width: 100%;
+        padding: 10px 10px;
+        border: none;
+        outline: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .submitBtn {
+        background: rgb(255, 200, 0);
+        padding: 8px 10px;
+        font-size: 20px;
+        border-radius: 5px; 
+        border: none; 
+        margin-top:  5px; 
+        cursor: pointer;
+
+    }
+    
+    .submitBtn:hover {
+        background: yellow;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
+    .mainHireContainer {
+        width: 100%;
+        background: black;
+        
+        padding: 20px 0px;
+        
+    }
 
+    .innerHireContainer {
+        background: gray;
+        font-size: 20px;
+        padding: 20px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .hireBtn {
+        background: rgb(255, 213, 1);
+        width: fit-content;
+        padding: 5px 10px ;
+        margin-top: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        font-size: 20px;
+
+    }
+
+    .hireBtn:hover {
+        background: yellow;
+    }
+
+    .hireFormContainer {
+        width: 80%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hireComponent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        
+    }
+
+    .hireInput {
+        width: 100%;
+        padding: 10px 10px;
+        border: none;
+        outline: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .submitBtn {
+        background: rgb(255, 200, 0);
+        padding: 8px 10px;
+        font-size: 20px;
+        border-radius: 5px; 
+        border: none; 
+        margin-top:  5px; 
+        cursor: pointer;
+
+    }
+    
+    .submitBtn:hover {
+        background: yellow;
+    }
 }

@@ -2,8 +2,11 @@ import React from "react";
 import './MobileNavigator.css';
 import Logo from './images/logon.png'
 import Close from './images/close-3.png'
+import { useScroll } from "../ScrollContext";
 
-const MobileNavigator = ({mobileMenuClickClose, mobileNavigationFalse}) => {
+const MobileNavigator = ({mobileNavigationFalse}) => {
+    
+
     return(
         <div className="mainMobileNavigator">
             <div>
@@ -24,4 +27,4 @@ const MobileNavigator = ({mobileMenuClickClose, mobileNavigationFalse}) => {
     )
 }
 
-export default MobileNavigator
+export default MobileNavigator;

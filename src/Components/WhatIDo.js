@@ -18,6 +18,9 @@ const WhatIDo = () => {
                 </div>
                 
             </div>
+            <div className="innerWhatIDoContainerContent">
+
+            
             <div className="whatIDoContainerList">
                 <div>
                     <img src={UI} style={{height: '150px'}}/>
@@ -91,6 +94,7 @@ const WhatIDo = () => {
 
                     
                 </div>
+            </div>
             </div>
         </div>
     )

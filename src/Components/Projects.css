@@ -54,9 +54,101 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .projectsContentContainer {
+        background: gray;
+        height: fit-content;
+        width: 90vw;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px;
+    }
+    .projectsTitle {
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
 
+    .mainProjectsContainer {
+        background: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        
+    }
+
+    .projectsTitle {
+        color: whitesmoke;
+        font-size: 30px;
+        text-align: center;
+        
+    }
+
+    .innerProjectsContainer {
+        background: gray;
+        height: 10vh;
+        width: 90vw;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
+    .projectsContentContainer {
+        background: gray;
+        height: fit-content;
+        width: 90vw;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px;
+    }
+    .projectsTitle {
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
 
+    .mainProjectsContainer {
+        background: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        
+    }
+
+    .projectsTitle {
+        color: whitesmoke;
+        font-size: 30px;
+        text-align: center;
+        
+    }
+
+    .innerProjectsContainer {
+        background: gray;
+        height: 10vh;
+        width: 90vw;
+    }
 }

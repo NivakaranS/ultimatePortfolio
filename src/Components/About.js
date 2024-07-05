@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import './About.css';
 import Counter from "./Counter";
+import Potrait from './images/portrait.png'
+import { useScroll } from "../ScrollContext";
 
 const About = () => {
+    
+
     return(
-        <div className="mainAboutContainer"> 
+        <div className="mainAboutContainer" > 
             <div className="innerMainAboutContainer">
                 <div className="aboutContainerTitle">
                         About Me
@@ -22,7 +26,7 @@ const About = () => {
                 <div className="aboutMe">
 
                         <div className="aboutLeftContainer">
-                            AboutRight
+                        {/* <img src={Potrait} style={{}} /> */}
                         </div>
                         
                         <div className="aboutRightContainer">

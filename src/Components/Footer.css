@@ -17,9 +17,27 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-
+    .mainFooterContainer {
+        background: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 0px;
+        background: rgb(27, 27, 27);
+    }
 }
 
 @media only screen and (min-width: 1025px) {
-
+    .mainFooterContainer {
+        background: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 0px;
+        background: rgb(27, 27, 27);
+    }
 }
