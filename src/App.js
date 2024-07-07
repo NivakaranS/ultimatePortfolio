@@ -9,6 +9,7 @@ import Footer from './Components/Footer';
 import MobileNavigator from './Components/MobileNavigator';
 import {ScrollProvider} from './ScrollContext';
 import {Element} from 'react-scroll';
+import TechStack from './Components/TechStack';
 
 function App() {
   const [mobileNavigationMenuClick, setMobileNavigationMenuClick] = useState(false);
@@ -39,7 +40,9 @@ function App() {
         </Element>
         <Element name='services' className='services'>
           <WhatIDo/>
+          
         </Element>
+        <TechStack/>
         <Element name='projects' className='projects'>
           <Projects/>
         </Element>
