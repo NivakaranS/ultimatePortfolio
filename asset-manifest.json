@@ -1,27 +1,42 @@
 {
   "files": {
-    "main.css": "/ultimatePortfolio/static/css/main.ca551d78.css",
-    "main.js": "/ultimatePortfolio/static/js/main.675f605b.js",
-    "static/js/453.2ce727cd.chunk.js": "/ultimatePortfolio/static/js/453.2ce727cd.chunk.js",
+    "main.css": "/ultimatePortfolio/static/css/main.496fe607.css",
+    "main.js": "/ultimatePortfolio/static/js/main.ce0aea01.js",
+    "static/js/453.39885d20.chunk.js": "/ultimatePortfolio/static/js/453.39885d20.chunk.js",
     "static/media/circle.png": "/ultimatePortfolio/static/media/circle.d5f17075d9e551c2d317.png",
     "static/media/portrait.png": "/ultimatePortfolio/static/media/portrait.1e097487e9f9caf595cd.png",
+    "static/media/php.png": "/ultimatePortfolio/static/media/php.400d9f1701f39cc1fe57.png",
     "static/media/ui_ux.png": "/ultimatePortfolio/static/media/ui_ux.f63a7c6c4f01585a1e6b.png",
     "static/media/datascience.png": "/ultimatePortfolio/static/media/datascience.bad635d8aba59df1f7cb.png",
+    "static/media/aws.png": "/ultimatePortfolio/static/media/aws.e901bc3397ff5cdfd815.png",
     "static/media/logon.png": "/ultimatePortfolio/static/media/logon.c69fea4fe6ebe0da801f.png",
+    "static/media/python-final.png": "/ultimatePortfolio/static/media/python-final.52d7bb207f9868b90e39.png",
     "static/media/web2.png": "/ultimatePortfolio/static/media/web2.f6564ee67eaebc031c6d.png",
     "static/media/hacking.png": "/ultimatePortfolio/static/media/hacking.5054fa9b1b57e0b7b251.png",
+    "static/media/java.png": "/ultimatePortfolio/static/media/java.fdabd4e11f1235e4e8e0.png",
+    "static/media/TensorFlow.png": "/ultimatePortfolio/static/media/TensorFlow.c444951c9efe6ed2177b.png",
+    "static/media/node-new.png": "/ultimatePortfolio/static/media/node-new.80740b85f9ad95ac41d7.png",
     "static/media/instagram.png": "/ultimatePortfolio/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/postgresql.png": "/ultimatePortfolio/static/media/postgresql.41d30ac9e052b399fa3e.png",
     "static/media/mobile_development.png": "/ultimatePortfolio/static/media/mobile_development.03b7b674928ca7346d1d.png",
+    "static/media/next.png": "/ultimatePortfolio/static/media/next.ab8293c95faf26dc5e3e.png",
+    "static/media/react-final5.png": "/ultimatePortfolio/static/media/react-final5.21ab8e16d0a7abae2b5e.png",
+    "static/media/mysql.png": "/ultimatePortfolio/static/media/mysql.a6e182e14c2248364006.png",
+    "static/media/express2.png": "/ultimatePortfolio/static/media/express2.04e4743fbd704db71ed7.png",
+    "static/media/reactNative.png": "/ultimatePortfolio/static/media/reactNative.90fb0021be64f2b1ce7e.png",
+    "static/media/redux.png": "/ultimatePortfolio/static/media/redux.1edba70acbe0a2484e24.png",
+    "static/media/firebase.png": "/ultimatePortfolio/static/media/firebase.9300477553d4bcce7da1.png",
+    "static/media/mongodb.png": "/ultimatePortfolio/static/media/mongodb.c964002ecef4971216d0.png",
     "static/media/menu.png": "/ultimatePortfolio/static/media/menu.9de22c2aa56d78ef83f1.png",
     "static/media/github.png": "/ultimatePortfolio/static/media/github.f11021803f68852df283.png",
     "static/media/linkedin.png": "/ultimatePortfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/ultimatePortfolio/index.html",
-    "main.ca551d78.css.map": "/ultimatePortfolio/static/css/main.ca551d78.css.map",
-    "main.675f605b.js.map": "/ultimatePortfolio/static/js/main.675f605b.js.map",
-    "453.2ce727cd.chunk.js.map": "/ultimatePortfolio/static/js/453.2ce727cd.chunk.js.map"
+    "main.496fe607.css.map": "/ultimatePortfolio/static/css/main.496fe607.css.map",
+    "main.ce0aea01.js.map": "/ultimatePortfolio/static/js/main.ce0aea01.js.map",
+    "453.39885d20.chunk.js.map": "/ultimatePortfolio/static/js/453.39885d20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca551d78.css",
-    "static/js/main.675f605b.js"
+    "static/css/main.496fe607.css",
+    "static/js/main.ce0aea01.js"
   ]
 }
