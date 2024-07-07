@@ -11,6 +11,7 @@ const HireContainer = () => {
 
     const [responseMessage, setResponseMessage] = useState('');
     const [submitClick, setSubmitClick] = useState(false);
+    
 
     const handleChange = (event) => {
         const {name, value} = event.target;
@@ -55,6 +56,13 @@ const HireContainer = () => {
                 </div>
                 {hireClick
                 ?
+                <div className="formConditionContainer">
+                    {submitClick
+                    
+                ?<div style={{textAlign: 'center', color: 'black', margin: '10px 0px', fontWeight: '600'}}>
+                    Thanks for your message. Will get back to you soon:)
+                </div>
+                :
                 <form className="hireFormContainer" onSubmit={handleSubmit}>
                
                     <div className="hireComponent">
@@ -70,10 +78,12 @@ const HireContainer = () => {
                         <textarea className="hireInput" name="message" value={formData.message} onChange={handleChange} rows={5} required />
                     </div>
                     <div className="hireComponent">
-                        <button type="submit" className="submitBtn" onClick={() => {setHireClick(false)}}>Submit</button>
+                        <button type="submit" className="submitBtn" onClick={() => {setSubmitClick(true)}}>Submit</button>
                     </div>
                     
                 </form>
+                }
+                </div>
                 :
                 <div >
                     <button className="hireBtn" onClick={() => {setHireClick(true)}}>
