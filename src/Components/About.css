@@ -282,14 +282,14 @@
     
     .quote {
         text-align: center;
-        font-size: 25px;
+        font-size: 40px;
         margin-top: 10px;
         background: rgb(67, 64, 64);
     }
     
     .steve {
         text-align: right;
-        font-size: 20px;
+        font-size: 25px;
         margin: 5px 50px 10px 0px ;
     }
 
@@ -320,6 +320,24 @@
         width: 90%;
         
         
+    }
+
+    .aboutLeftContainer {
+         overflow: hidden;/* Hide the overflow */
+    position: relative; 
+        height: 646px;
+        width: 100%;
+        border: 1px solid black;
+
+    }
+    .leftImage {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -35%);
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
     }
 
 

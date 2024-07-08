@@ -31,7 +31,7 @@ const Navigation = ({mobileNavigationClick}) => {
                     <Link to="projects" smooth={true} duration={500} offset={-85} style={{color: 'white'}} >
                     <li className='navList'>Projects</li>
                     </Link>
-                    <Link to="contact" smooth={true} duration={500} offset={-85} style={{color: 'white'}}>
+                    <Link to="contact" smooth={true} duration={500} offset={-65} style={{color: 'white'}}>
                     <li className='navList'>Contact</li>
                     </Link>
                     

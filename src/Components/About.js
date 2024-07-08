@@ -3,6 +3,8 @@ import './About.css';
 import Counter from "./Counter";
 import Potrait from './images/portrait.png'
 import { useScroll } from "../ScrollContext";
+import PImage from './images/blonde-handsome-young-man-with-pale-complexion-dark-shirt-looking-at-camera-black-background-room-for-text-free-photo.jpg';
+
 
 const About = () => {
     
@@ -26,7 +28,7 @@ const About = () => {
                 <div className="aboutMe">
 
                         <div className="aboutLeftContainer">
-                        {/* <img src={Potrait} style={{}} /> */}
+                        <img src={PImage} className="leftImage" /> 
                         </div>
                         
                         <div className="aboutRightContainer">
