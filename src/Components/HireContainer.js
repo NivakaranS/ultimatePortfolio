@@ -22,9 +22,6 @@ const HireContainer = () => {
         setName('');
         setEmail('');
         setMessage('');
-        console.log(name);
-        console.log(email);
-        console.log(message)
         setSubmitClick(true)
     };
 
