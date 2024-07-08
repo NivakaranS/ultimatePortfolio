@@ -63,7 +63,7 @@ const HireContainer = () => {
                         <textarea className="hireInput" value={message} name="message" onChange={(e) => setMessage(e.target.value)} rows={5} required />
                     </div>
                     <div className="hireComponent">
-                        <button type="submit" className="submitBtn" >Submit</button>
+                        <button type="submit" className="submitBtn" >Send</button>
                     </div>
                     
                 </form>
