@@ -1,55 +1,40 @@
 import React, { useState } from "react";
 import './HireContainer.css';
+import { db } from './firebase';
+import { ref, push } from 'firebase/database';
 
 const HireContainer = () => {
     const [hireClick, setHireClick] = useState(false);
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: ''
-    });
-
-    const [responseMessage, setResponseMessage] = useState('');
     const [submitClick, setSubmitClick] = useState(false);
-    
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
 
-    const handleChange = (event) => {
-        const {name, value} = event.target;
-        setFormData({
-            ...formData,
-            [name]: value,
+    const handleSubmit = (e) => {
+        
+        e.preventDefault();
+        const messagesRef = ref(db, 'messages');
+        push(messagesRef, {
+          name,
+          email,
+          message
         });
+        setName('');
+        setEmail('');
+        setMessage('');
+        console.log(name);
+        console.log(email);
+        console.log(message)
+        setSubmitClick(true)
     };
 
-    const onHandleSubmit = () => {
-        submitClick(true);
-    }
 
-    const handleSubmit = async(event) => {
-        event.preventDefault();
-        try{
-            const response = await fetch('http://localhost:3000/messages', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(formData),
-            });
-            const result = await response.json();
-            if(response.ok){
-                setResponseMessage('Message submitted successfully!');
-            } else {
-                setResponseMessage(`Error: ${result.error}`);
-            }
-        } catch(error) {
-            setResponseMessage('Error submitting message');
-            console.error('Error:', error);
-        }
-    };
+    
+    
 
     
     return(
-        <div className="mainHireContainer">
+        <div className="mainHireContainer" >
             <div className="innerHireContainer">
                 <div style={{textAlign: 'center', fontWeight: '500', color: 'white'}}>
                     Got anything in your mind? Let's make something awesome together!
@@ -67,18 +52,18 @@ const HireContainer = () => {
                
                     <div className="hireComponent">
                         <div style={{alignSelf: 'flex-start',  marginLeft: '40px', marginBottom: '5px'}}>Name</div>
-                        <input className="hireInput" name="name" value={formData.name} onChange={handleChange} type="text" required/>
+                        <input className="hireInput" name="name" value={name} onChange={(e) => setName(e.target.value)} type="text" required/>
                     </div>
                     <div className="hireComponent">
                         <div style={{alignSelf: 'flex-start', marginLeft: '40px', marginBottom: '5px'}}>Email</div>
-                        <input className="hireInput" name="email" type="email" value={formData.email} onChange={handleChange} required/>
+                        <input className="hireInput" value={email} name="email" type="email" onChange={(e) => setEmail(e.target.value)} required/>
                     </div>
                     <div className="hireComponent">
                         <div style={{alignSelf: 'flex-start', marginLeft: '40px', marginBottom: '5px'}}>Message</div>
-                        <textarea className="hireInput" name="message" value={formData.message} onChange={handleChange} rows={5} required />
+                        <textarea className="hireInput" value={message} name="message" onChange={(e) => setMessage(e.target.value)} rows={5} required />
                     </div>
                     <div className="hireComponent">
-                        <button type="submit" className="submitBtn" onClick={() => {setSubmitClick(true)}}>Submit</button>
+                        <button type="submit" className="submitBtn" >Submit</button>
                     </div>
                     
                 </form>
