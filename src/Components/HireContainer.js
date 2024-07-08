@@ -72,7 +72,7 @@ const HireContainer = () => {
                 :
                 <div >
                     <button className="hireBtn" onClick={() => {setHireClick(true)}}>
-                        Hire me
+                        Get in touch
                     </button>
                     
                 </div>}
